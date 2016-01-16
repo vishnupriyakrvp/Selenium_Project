@@ -6,10 +6,10 @@ We have used functionally rich and well known Facebook as test application, so i
 
 ##Functionality automated:
 
-  -Login with test_email
-  -Home page and navigation on Home page
-  -Profile page  and nvaigation on profile page.
-  -Search on Friend list page
+  - Login with test_email
+  - Home page and navigation on Home page
+  - Profile page  and nvaigation on profile page.
+  - Search on Friend list page
   
 
 
