@@ -43,9 +43,9 @@ public class amazon_Login {
 	 driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	 
 	 // enter name
-	 driver.findElement(By.xpath(".//*[@id='ap_customer_name']")).sendKeys("test");
+	 driver.findElement(By.xpath(".//*[@id='ap_customer_name']")).sendKeys("TestUser");;
 	 
-	 //enter email address
+	/* //enter email address
 	 driver.findElement(By.xpath(".//*[@id='ap_email']")).sendKeys("vish");
 	 
 	 //enter email address again
@@ -58,7 +58,7 @@ public class amazon_Login {
 	 driver.findElement(By.xpath(".//*[@id='ap_password_check']")).sendKeys("pswd");
 	  
 	 //click on create account button
-	 driver.findElement(By.xpath(".//*[@id='continue-input']")).click();
+	 driver.findElement(By.xpath(".//*[@id='continue-input']")).click();*/
 	/*  }else{
 		  Log.info("page not loaded properlt yet!!");
 	  }*/

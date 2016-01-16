@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22630" started-at="2016-01-16T19:48:41Z" finished-at="2016-01-16T19:49:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22630" started-at="2016-01-16T19:48:41Z" finished-at="2016-01-16T19:49:03Z">
+      <class name="com.test.fb.LoginPage">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test.fb.LoginPage@331ae2ce]" name="beforeMethod" is-config="true" duration-ms="12882" started-at="2016-01-16T11:48:41Z" finished-at="2016-01-16T11:48:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="main()[pri:0, instance:com.test.fb.LoginPage@331ae2ce]" name="main" duration-ms="9490" started-at="2016-01-16T11:48:54Z" finished-at="2016-01-16T11:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test.fb.LoginPage@331ae2ce]" name="afterMethod" is-config="true" duration-ms="246" started-at="2016-01-16T11:49:03Z" finished-at="2016-01-16T11:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.test.fb.LoginPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
