@@ -8,7 +8,7 @@ We have used functionally rich and well known Facebook as test application, so i
 
   - Login with test_email
   - Home page and navigation on Home page
-  - Profile page  and nvaigation on profile page.
+  - Profile page  and navigation on profile page.
   - Search on Friend list page
   
 
