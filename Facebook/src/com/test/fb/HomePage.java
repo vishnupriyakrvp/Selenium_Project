@@ -51,6 +51,7 @@ public class HomePage {
   @Test
   public void HomePageNavigation() {
 	  
+	  //CHeck fot the text 'Home' on home page
 	 String element= driver.findElement(By.xpath(".//*[@id='u_0_1']")).getText();
 	 assertEquals(element,"Home0");
   }
