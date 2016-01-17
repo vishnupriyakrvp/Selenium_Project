@@ -11,6 +11,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
+import static org.testng.Assert.assertEquals;
 
 public class HomePage {
 	
@@ -50,6 +51,8 @@ public class HomePage {
   @Test
   public void HomePageNavigation() {
 	  
+	 String element= driver.findElement(By.xpath(".//*[@id='u_0_1']")).getText();
+	 assertEquals(element,"Home0");
   }
   
 
