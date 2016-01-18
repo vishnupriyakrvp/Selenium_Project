@@ -1,10 +1,14 @@
 package com.vishnu.mc;
 
 import org.testng.annotations.Test;
+
+import com.testNg.vishnu.amazon_Login;
+
 import org.testng.annotations.BeforeTest;
 
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -15,6 +19,7 @@ import org.testng.annotations.AfterTest;
 public class Order_Food {
 	
 	public WebDriver driver;
+	Logger logger = Logger.getLogger(Order_Food.class.getName());
 	
 	 @BeforeTest
 	  public void beforeTest() {
@@ -38,10 +43,13 @@ public class Order_Food {
 	  Actions act = new Actions(driver);
 	  WebElement food = driver.findElement(By.id("foodnav_link"));
 	  
-	  	act.moveToElement(food).build().perform(); //move to food tab
+	  //move to food tab
+	  	act.moveToElement(food).build().perform();
+	  
 	  	//move to salad and click
 	  	act.moveToElement(driver.findElement(By.xpath("//a[contains(@href,'menu/salads.html')]"))).click().build().perform();
-	  System.out.println("Hammaya..Selected food now!!");
+	
+	  	logger.info("Okey..Selected the food now!!");
   }
  
 
