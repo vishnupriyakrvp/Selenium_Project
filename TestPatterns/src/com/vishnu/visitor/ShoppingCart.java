@@ -18,25 +18,16 @@ public class ShoppingCart {
         System.out.println(sc.calculatePostage());
         System.out.println("");
 
-
-
     }
-
-
-
      public double calculatePostage() {
          Postage postage = new Postage();
 
          for(Item item: items) {
-
              item.accept(postage);
 
              }
 
-
-
          double postageVal = postage.getTotalPostage();
-
          return postageVal;
 
          }
