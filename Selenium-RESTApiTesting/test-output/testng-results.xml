@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="534" started-at="2016-02-12T00:41:31Z" finished-at="2016-02-12T00:41:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="534" started-at="2016-02-12T00:41:31Z" finished-at="2016-02-12T00:41:31Z">
+      <class name="com.vishnu.test.ReadJsonObject">
+        <test-method status="PASS" signature="aptTesting()[pri:0, instance:com.vishnu.test.ReadJsonObject@3cbd9256]" name="aptTesting" duration-ms="521" started-at="2016-02-11T16:41:31Z" finished-at="2016-02-11T16:41:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aptTesting -->
+      </class> <!-- com.vishnu.test.ReadJsonObject -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
