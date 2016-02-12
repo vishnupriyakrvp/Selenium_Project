@@ -1,0 +1,42 @@
+<suite name="Suite" parallel="tests" thread-count="5">
+
+	<test name="FirefoxTest">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="Testng_BC" />
+		</classes>
+	</test>
+	<test name="IETest">
+		<parameter name="browser" value="ie" />
+		<classes>
+			<class name="Testng_BC" />
+		</classes>
+	</test>
+	<!-- </suite> -->
+
+	<!-- <suite thread-count="3" name="Suite1" parallel="tests"> -->
+	<test name="FirstTest">
+		<parameter name="browser" value="firefox" />
+		<parameter name="version" value="38" />
+		<parameter name="platform" value="Windows" />
+		<classes>
+			<class name="package1.BrowserStackTestCase" />
+		</classes>
+	</test>
+	<test name="SecondTest">
+		<parameter name="browser" value="safari" />
+		<parameter name="version" value="6.0" />
+		<parameter name="platform" value="MAC" />
+		<classes>
+			<class name="package1.BrowserStackTestCase" />
+		</classes>
+	</test>
+	<test name="ThirdTest">
+		<parameter name="browser" value="Internet Explorer" />
+		<parameter name="version" value="11" />
+		<parameter name="platform" value="Windows" />
+		<classes>
+			<class name="package1.BrowserStackTestCase" />
+		</classes>
+	</test>
+</suite>
