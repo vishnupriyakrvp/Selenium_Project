@@ -13,7 +13,7 @@ This is Selenium 2 framework created using the latest Selenium 2 features with J
 
 ##Test Application
 
-We have used functionally rich and well known Facebook as test application, so it would be easier to understand the framework and then implement the same for your project as per your requirements.
+I have used functionally rich and well known Facebook as test application, so it would be easier to understand the framework and then implement the same for your project as per your requirements.
 
 
 ##Prerequisites Software/Tools
